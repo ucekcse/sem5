@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(61, 61, 61);
+    opacity: 95%;
+}
+#topic{
+    background-color: rgb(32, 32, 32);
+    color: aliceblue;
+    font-size: 30px;
+    text-shadow: 0PX  0PX 20PX rgb(255, 255, 255),
+                0PX  0PX 40PX rgb(255, 183, 157),
+                0PX  0PX 60PX rgb(255, 183, 157);
+    border-style: solid;
+    border-color: rgb(82, 82, 82);
+}
+.name{
+    font-size: 50px;
+    color: white;
+    text-shadow: 0px 0px 20px rgb(255, 91, 14),
+                0px 0px 40px rgb(255, 149, 110),
+                
+                0px 0px 60px rgb(255, 255, 255);
+}
+.opentag{
+    border-style: solid;
+    color: azure;
+    border-color: black;
+    border-radius: 20px;
+    width: 140px;
+    height: 50px;
+    border-width: 3px;
+}
+.opentag:hover{
+    border-color: azure;
+    background-color: aqua;
+    padding: 5px;
+    box-shadow: 0px 0px 20px rgb(3, 210, 247),
+                0px 0px 40px rgb(124, 255, 248),
+                0px 0px 60px rgb(1, 243, 211),
+                0px 0px 80px rgb(255, 255, 255);
+}
+
+
+
+
+
+
+.thank{
+    background-color: black;
+    color: aliceblue;
+    text-shadow: 0px 0px 20px rgb(255, 207, 189);
+
+}
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: rgb(80, 80, 80);
+    }
+    #topic {
+        font-size: 25px;
+    }
+    .name {
+        font-size: 40px;
+    }
+    .opentag {
+        width: 120px;
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: rgb(100, 100, 100);
+    }
+    #topic {
+        font-size: 20px;
+    }
+    .name {
+        font-size: 35px;
+    }
+    .opentag {
+        width: 110px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: rgb(120, 120, 120);
+    }
+    #topic {
+        font-size: 10px;
+    }
+    .name {
+        font-size: 30px;
+    }
+    .opentag {
+        width: 100px;
+        height: 35px;
+    }
+}

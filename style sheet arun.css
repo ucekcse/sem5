@@ -1,0 +1,297 @@
+body {
+    background-image: url(main\ background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    color: #fff;
+}
+
+.thank {
+    background-color: #111;
+    color: aliceblue;
+    text-shadow: 0px 0px 20px rgb(253, 197, 177);
+}
+
+.topic {
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+#dep {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-size: 42px;
+    text-shadow: 0px 0px 30px rgb(255, 138, 95),
+                 0px 0px 60px rgb(255, 138, 95);
+}
+
+.imagegif {
+    position: relative;
+    height: 160px;
+    width: 160px;
+    margin-left: 0px;
+    object-fit: cover;
+}
+
+nav {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    margin-left: 90px;
+    margin-top: -10px;
+}
+
+nav a:hover {
+    text-shadow: 0px 0px 10px aqua, 0px 0px 20px aqua;
+}
+
+a {
+    color: rgb(255, 253, 253);
+    row-gap: 20px;
+    height: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a:hover {
+    color: aliceblue;
+    border-bottom-style: groove;
+    border-bottom-color: #fcfcfc;
+    border-bottom-width: 3px;
+    border-end-end-radius: 20px;
+    border-start-start-radius: 20px;
+}
+
+marquee {
+    color: aqua;
+}
+
+/* Box styling */
+.box {
+    border: 1px solid #2b2b2b;
+    background-color: #1a1a1a;
+    height: 420px;
+    width: 300px;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: box-shadow .2s ease, transform .2s ease;
+}
+
+.box:hover {
+    position: relative;
+    box-shadow: 0px 10px 30px rgba(0,0,0,.45);
+    transform: translateY(-3px);
+}
+.boxtext {
+    color: #ffe5de;
+    text-decoration: none;
+    height: 36px;
+    width: 120px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+    background-color: #000;
+    border-radius: 22px;
+    position: relative;
+    bottom: 10px;
+    padding: 6px 12px;
+    text-transform: uppercase;
+}
+
+.boxtext:hover {
+    box-shadow: 0 8px 22px rgba(16, 247, 160, 0.35);
+    background-color: #10f7a0;
+    color: #111;
+    border-color: #10f7a0;
+}
+
+.image {
+    border-bottom: #111;
+    border-radius: 0px;
+    background-color: #0ef;
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+    padding: 24px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Media Queries for Responsive Design */
+.body {
+    background-image: url(download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(78, 78, 78);
+}
+
+.thank {
+    background-color: #111;
+    color: aliceblue;
+    text-shadow: 0px 0px 20px rgb(253, 197, 177);
+}
+
+.topic {
+    background-color: #111;
+}
+
+#dep {
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin-left: 250px;
+    margin-top: -120px;
+    font-size: 50px;
+    text-shadow: 0px 0px 30px rgb(255, 138, 95),
+                 0px 0px 60px rgb(255, 138, 95);
+}
+
+.imagegif {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin-left: 0px;
+}
+
+nav {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    margin-left: 90px;
+    margin-top: -10px;
+}
+
+nav a:hover {
+    text-shadow: 0px 0px 10px aqua, 0px 0px 20px aqua;
+}
+
+a {
+    color: rgb(255, 253, 253);
+    row-gap: 20px;
+    height: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a:hover {
+    color: aliceblue;
+    border-bottom-style: groove;
+    border-bottom-color: #fcfcfc;
+    border-bottom-width: 3px;
+    border-end-end-radius: 20px;
+    border-start-start-radius: 20px;
+}
+
+marquee {
+    color: aqua;
+}
+
+/* Box styling */
+.box {
+    border-style: groove;
+    border-color: gray;
+    background-color: #d1d0d0;
+    height: 420px;
+    width: 300px;
+    border-width: 10px;
+    border-radius: 15px;
+}
+
+.box:hover {
+    position: relative;
+    box-shadow: 0px 0px 10px rgb(110, 110, 110),
+                0px 0px 20px rgb(151, 151, 151),
+                0px 0px 30px rgb(124, 124, 124);
+    padding: 5px;
+}
+
+.boxtext {
+    color: rgb(255, 200, 200);
+    text-decoration: none;
+    height: 30px;
+    width: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    position: relative;
+    bottom: 20px;
+    padding: 5px;
+    padding-top: 3px;
+}
+
+.boxtext:hover {
+    box-shadow: 2px 5px 20px rgb(0, 255, 21);
+    background-color: rgb(10, 252, 30);
+    border-color: rgb(255, 255, 255);
+    padding: 8px;
+}
+
+.image {
+    border-bottom: #111;
+    border-radius: 0px;
+    background-color: #0ef;
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 100px);
+    gap: 400px 100px;
+    margin: 120px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+/* Media Queries for Responsive Design */
+
+/* Tablets and smaller screens */
+@media screen and (max-width: 1024px) {
+    #dep {
+        font-size: 36px;
+    }
+    .box {
+        width: 100%;
+        height: 380px;
+    }
+    .image {
+        height: 220px;
+    }
+}
+
+/* Mobile screens */
+@media screen and (max-width: 768px) {
+    #dep {
+        font-size: 30px;
+    }
+    nav {
+        font-size: 20px;
+    }
+    .imagegif {
+        height: 120px;
+        width: 120px;
+    }
+}
+
+/* Extra small devices (phones) */
+@media screen and (max-width: 480px) {
+    #dep {
+        font-size: 26px;
+    }
+    nav {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,229 @@
+/* this is a  labmanual */
+
+body{
+    background-color: rgb(94, 94, 94);
+}
+
+#topic{
+    background-color: rgb(32, 32, 32);
+    color: aliceblue;
+    font-size: 30px;
+    text-shadow: 0PX  0PX 20PX rgb(255, 255, 255),
+                0PX  0PX 40PX rgb(255, 183, 157),
+                0PX  0PX 60PX rgb(255, 183, 157);
+    border-style: solid;
+    border-color: rgb(82, 82, 82);
+}
+.subtopic{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.opentag{
+    color: aliceblue;
+    border-style: solid;
+    border-radius: 15px;
+
+    height: 45px;
+    width: 120px;
+
+}
+.opentag:hover{
+    background-color: rgb(255, 114, 63);
+    box-shadow: 0px 0px 20px rgb(255, 157, 157),
+                0px 0px 40px rgb(255, 85, 23),
+                0px 0px 60px rgb(255, 103, 47),
+                0px 0px 80px rgb(253, 128, 56);
+    border-color: rgb(255, 114, 63);
+    padding: 10px;
+    border-color: aliceblue;
+
+}
+.labbox1{
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 05px;
+    height: 280px;
+    position: relative;
+    width: 310px;
+    padding: 10px;
+    text-shadow: 0px 0px 20px rgb(255, 140, 95);
+    background-image: url(aiml\ lab.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    
+    
+   
+}
+.labbox1:hover{
+    box-shadow: 0px 0px 20px rgb(255, 255, 255),
+                0px 0px 40px rgb(255, 255, 255),
+                0px 0px 60px rgb(255, 164, 131),
+                0px 0px 80px rgb(255, 255, 255);
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-color: aliceblue;
+}
+.labbox2{
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 05px;
+    height: 280px;
+    position: relative;
+    width: 310px;
+    padding: 10px;
+    text-shadow: 0px 0px 20px rgb(255, 140, 95);
+    background-image: url(data\ base\ lab.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    /* opacity:50%; */
+    
+   
+}
+.labbox2:hover{
+    box-shadow: 0px 0px 20px rgb(255, 255, 255),
+                0px 0px 40px rgb(255, 255, 255),
+                0px 0px 60px rgb(255, 164, 131),
+                0px 0px 80px rgb(255, 255, 255);
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-color: aliceblue;
+}
+.labbox3{
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 05px;
+    height: 320px;
+    position: relative;
+    width: 310px;
+    padding: 10px;
+    text-shadow: 0px 0px 20px rgb(255, 140, 95);
+    background-image: url(os\ lab.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    opacity:80%;
+    
+   
+}
+.labbox3:hover{
+    box-shadow: 0px 0px 20px rgb(255, 255, 255),
+                0px 0px 40px rgb(255, 255, 255),
+                0px 0px 60px rgb(255, 164, 131),
+                0px 0px 80px rgb(255, 255, 255);
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-color: aliceblue;
+}
+.labbox4{
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 05px;
+    height: 320px;
+    position: relative;
+    width: 310px;
+    padding: 10px;
+    text-shadow: 0px 0px 20px rgb(255, 140, 95);
+    background-image: url(os\ lab.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    opacity:80%;
+    
+   
+}
+.labbox4:hover{
+    box-shadow: 0px 0px 20px rgb(255, 255, 255),
+                0px 0px 40px rgb(255, 255, 255),
+                0px 0px 60px rgb(255, 164, 131),
+                0px 0px 80px rgb(255, 255, 255);
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-color: aliceblue;
+}
+.labbox5{
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 05px;
+    height: 280px;
+    position: relative;
+    width: 310px;
+    padding: 10px;
+    text-shadow: 0px 0px 20px rgb(255, 140, 95);
+    background-image: url(algorithm\ lab.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    /* opacity:50%; */
+    
+   
+}
+.labbox5:hover{
+    box-shadow: 0px 0px 20px rgb(255, 255, 255),
+                0px 0px 40px rgb(255, 255, 255),
+                0px 0px 60px rgb(255, 164, 131),
+                0px 0px 80px rgb(255, 255, 255);
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-color: aliceblue;
+}
+.thank{
+    background-color: black;
+    color: aliceblue;
+    text-shadow: 0px 0px 20px rgb(255, 207, 189);
+}
+#section.labbox{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: repeat(3,100px);
+    gap: 400px 100px;
+    margin: 120px;
+    margin-left: 300px;
+    margin-top:100px ;
+}
+/* 
+this is a toc */
+
+/* Responsive Design for Mobile and Tablets */
+@media screen and (max-width: 1024px) {
+    #section.labbox {
+        gap: 200px 50px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .labbox {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #section.labbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin: 20px;
+    }
+    .labbox {
+        width: 220px;
+        height: 220px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #section.labbox {
+        margin: 10px;
+        gap: 20px;
+    }
+    .labbox {
+        width: 180px;
+        height: 180px;
+    }
+}
