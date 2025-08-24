@@ -1,9 +1,7 @@
 /* this is a  labmanual */
 
 body{
-    background-color: rgb(28, 28, 28);
-    margin: 0;
-    color: #fff;
+    background-color: rgb(94, 94, 94);
 }
 
 #topic{
@@ -13,8 +11,8 @@ body{
     text-shadow: 0PX  0PX 20PX rgb(255, 255, 255),
                 0PX  0PX 40PX rgb(255, 183, 157),
                 0PX  0PX 60PX rgb(255, 183, 157);
-    border-bottom: 1px solid #2a2a2a;
-    padding: 8px 0;
+    border-style: solid;
+    border-color: rgb(82, 82, 82);
 }
 .subtopic{
     font-size: 50px;
@@ -23,121 +21,159 @@ body{
 .opentag{
     color: aliceblue;
     border-style: solid;
-    border-radius: 20px;
-    height: 42px;
-    width: 140px;
-    border-width: 2px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: all .2s ease;
+    border-radius: 15px;
+
+    height: 45px;
+    width: 120px;
+
 }
 .opentag:hover{
     background-color: rgb(255, 114, 63);
-    box-shadow: 0px 0px 20px rgba(255, 157, 157,.6),
-                0px 0px 40px rgba(255, 85, 23,.4),
-                0px 0px 60px rgba(255, 103, 47,.3);
+    box-shadow: 0px 0px 20px rgb(255, 157, 157),
+                0px 0px 40px rgb(255, 85, 23),
+                0px 0px 60px rgb(255, 103, 47),
+                0px 0px 80px rgb(253, 128, 56);
     border-color: rgb(255, 114, 63);
-    color: #111;
+    padding: 10px;
+    border-color: aliceblue;
+
 }
 
 .labbox1{
-    border: 1px solid #2b2b2b;
-    border-radius: 16px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 05px;
     height: 280px;
     position: relative;
-    width: 100%;
-    max-width: 320px;
-    padding: 12px;
+    width: 310px;
+    padding: 10px;
     text-shadow: 0px 0px 20px rgb(255, 140, 95);
     background-image: url(notes.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     backface-visibility: visible;
-    transition: transform .2s ease, box-shadow .2s ease;
+    /* opacity:50%; */
+    
+   
 }
 .labbox1:hover{
-    box-shadow: 0 10px 28px rgba(0,0,0,.45);
-    transform: translateY(-3px);
+    box-shadow: 0px 0px 20px rgb(255, 255, 255),
+                0px 0px 40px rgb(255, 255, 255),
+                0px 0px 60px rgb(255, 164, 131),
+                0px 0px 80px rgb(255, 255, 255);
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-color: aliceblue;
 }
 .labbox2{
-    border: 1px solid #2b2b2b;
-    border-radius: 16px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 05px;
     height: 280px;
     position: relative;
-    width: 100%;
-    max-width: 320px;
-    padding: 12px;
+    width: 310px;
+    padding: 10px;
     text-shadow: 0px 0px 20px rgb(255, 140, 95);
     background-image: url(question\ logo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     backface-visibility: visible;
-    transition: transform .2s ease, box-shadow .2s ease;
+    /* opacity:50%; */
+    
+   
 }
 .labbox2:hover{
-    box-shadow: 0 10px 28px rgba(0,0,0,.45);
-    transform: translateY(-3px);
+    box-shadow: 0px 0px 20px rgb(255, 255, 255),
+                0px 0px 40px rgb(255, 255, 255),
+                0px 0px 60px rgb(255, 164, 131),
+                0px 0px 80px rgb(255, 255, 255);
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-color: aliceblue;
 }
 
 .labbox3{
-    border: 1px solid #2b2b2b;
-    border-radius: 16px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 05px;
     height: 280px;
     position: relative;
-    width: 100%;
-    max-width: 320px;
-    padding: 12px;
+    width: 310px;
+    padding: 10px;
     text-shadow: 0px 0px 20px rgb(255, 140, 95);
     background-image: url(two\ mark.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     backface-visibility: visible;
-    transition: transform .2s ease, box-shadow .2s ease;
+    /* opacity:50%; */
+    
+   
 }
 .labbox3:hover{
-    box-shadow: 0 10px 28px rgba(0,0,0,.45);
-    transform: translateY(-3px);
+    box-shadow: 0px 0px 20px rgb(255, 255, 255),
+                0px 0px 40px rgb(255, 255, 255),
+                0px 0px 60px rgb(255, 164, 131),
+                0px 0px 80px rgb(255, 255, 255);
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-color: aliceblue;
 }
 .labbox4{
-    border: 1px solid #2b2b2b;
-    border-radius: 16px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 05px;
     height: 280px;
     position: relative;
-    width: 100%;
-    max-width: 320px;
-    padding: 12px;
+    width: 310px;
+    padding: 10px;
     text-shadow: 0px 0px 20px rgb(255, 140, 95);
     background-image: url(importent\ question.webp);
     background-repeat: no-repeat;
     background-size: cover;
     backface-visibility: visible;
-    transition: transform .2s ease, box-shadow .2s ease;
+    /* opacity:50%; */
+    
+   
 }
 .labbox4:hover{
-    box-shadow: 0 10px 28px rgba(0,0,0,.45);
-    transform: translateY(-3px);
+    box-shadow: 0px 0px 20px rgb(255, 255, 255),
+                0px 0px 40px rgb(255, 255, 255),
+                0px 0px 60px rgb(255, 164, 131),
+                0px 0px 80px rgb(255, 255, 255);
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-color: aliceblue;
 }
 .labbox5{
-    border: 1px solid #2b2b2b;
-    border-radius: 16px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 05px;
     height: 280px;
     position: relative;
-    width: 100%;
-    max-width: 320px;
-    padding: 12px;
+    width: 310px;
+    padding: 10px;
     text-shadow: 0px 0px 20px rgb(255, 140, 95);
     background-image: url(task.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     backface-visibility: visible;
-    transition: transform .2s ease, box-shadow .2s ease;
+    /* opacity:50%; */
+    
+   
 }
 .labbox5:hover{
-    box-shadow: 0 10px 28px rgba(0,0,0,.45);
-    transform: translateY(-3px);
+    box-shadow: 0px 0px 20px rgb(255, 255, 255),
+                0px 0px 40px rgb(255, 255, 255),
+                0px 0px 60px rgb(255, 164, 131),
+                0px 0px 80px rgb(255, 255, 255);
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-color: aliceblue;
 }
 .thank{
     background-color: black;
@@ -149,18 +185,57 @@ this is a toc */
 /* this is a labmanual */
 
 @media screen and (max-width: 1200px) {
-    .subtopic { font-size: 26px; }
+    .labbox1, .labbox2, .labbox3, .labbox4, .labbox5 {
+        width: 250px;
+        height: 230px;
+    }
+    .subtopic {
+        font-size: 40px;
+    }
 }
 
 @media screen and (max-width: 992px) {
-    .subtopic { font-size: 24px; }
+    .labbox1, .labbox2, .labbox3, .labbox4, .labbox5 {
+        width: 220px;
+        height: 200px;
+    }
+    .subtopic {
+        font-size: 35px;
+    }
+    .opentag {
+        width: 100px;
+        height: 40px;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    .subtopic { font-size: 22px; }
+    .labbox1, .labbox2, .labbox3, .labbox4, .labbox5 {
+        width: 180px;
+        height: 160px;
+    }
+    .subtopic {
+        font-size: 30px;
+    }
+    .opentag {
+        width: 90px;
+        height: 35px;
+    }
 }
 
 @media screen and (max-width: 576px) {
-    .subtopic { font-size: 20px; }
+    #topic {
+        font-size: 10px;
+    }
+    .subtopic {
+        font-size: 25px;
+    }
+    .labbox1, .labbox2, .labbox3, .labbox4, .labbox5 {
+        width: 150px;
+        height: 130px;
+    }
+    .opentag {
+        width: 80px;
+        height: 30px;
+    }
 }
 

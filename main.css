@@ -1,87 +1,76 @@
 /* this is main page code  */
-:root{
-    --bg:#000;
-    --text:#fff;
-    --muted:#cfd3d6;
-    --accent:#ff5111;
-    --accent-2:#10f7a0;
-    --card-bg:#111;
-    --card-border:#222;
-}
-
 #maintopic{
-    color: var(--text);
+    color: rgb(255, 255, 255);
     font-size: 20px;
-    text-shadow: 0px 0px 30px var(--accent);
-    background-color: var(--bg);
-    padding: 16px;
-    border-bottom: 1px solid var(--card-border);
+    text-shadow: 0px 0px 30px rgb(253, 85, 7);
+    background-color: black;
 }
 body{
     background-image:url(main\ background.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    opacity: 90%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 0;
-    text-align: center;
-    color: var(--text);
 }
-.sembox41,
-.sembox42{
-    display: inline-block;
-    position: relative;
+.sembox41{
+    border: 2px;
+    border-color: black;border-style: solid;
+    position: absolute;
     height: 300px;
     width: 200px;
-    margin: 24px 16px;
+    top: 300px;
+    left: 200px;
     background-image: url(sem4.jpeg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 12px;
-    border: 2px solid var(--card-border);
-    box-shadow: 0 6px 24px rgba(0,0,0,0.35);
-    color: var(--text);
+    border-radius: 10px;
 }
 
-.open,
-.open1{
+.open{
+    border: 2px;
+    border-color: black;border-style: solid;
     position: absolute;
-    bottom: 16px;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 36px;
-    min-width: 94px;
-    padding: 6px 14px;
-    border-radius: 999px;
-    border: 2px solid var(--text);
-    background-color: rgba(0,0,0,0.65);
-    color: var(--text);
-    font-size: 18px;
-    line-height: 22px;
-    cursor: pointer;
-    transition: all .2s ease;
-    text-transform: uppercase;
+    height: 25px;
+    width:70px;
+    border-radius: 15px;
+    padding: 7px;
+    top: 230px;
+    left: 65px;
+    font-size: 20px;
+
 }
-.open:hover,
-.open1:hover{
-    background-color: var(--accent);
-    border-color: var(--accent);
-    color: #111;
-    opacity: 0.95;
-    box-shadow: 0 8px 28px rgba(0,0,0,0.5);
+.open:hover{
+    background-color: rgb(255, 17, 176);
+    opacity: 40px;
+    box-shadow: 0px 0px 30px black;
+
 }
 
-@media (max-width: 640px){
-    .sembox41,
-    .sembox42{
-        width: 86%;
-        max-width: 360px;
-        height: 240px;
-    }
-    .open,
-    .open1{
-        bottom: 12px;
-        font-size: 16px;
-        min-width: 88px;
-    }
+.sembox42{
+    border: 2px;
+    border-color: black;border-style: solid;
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    top: 300px;
+    left: 600px;
+    background-image: url(sem4.jpeg);
+    border-radius: 10px;
+}
+
+.open1{
+    border: 2px;
+    border-color: black;border-style: solid;
+    position: absolute;
+    height: 25px;
+    width:70px;
+    border-radius: 15px;
+    padding: 7px;
+    top: 230px;
+    left: 65px;
+    font-size: 20px;
+
+}
+.open1:hover{
+    background-color: rgb(255, 17, 176);
+    opacity: 40px;
+    box-shadow: 0px 0px 30px black;
+    padding: 10px;
+
 }

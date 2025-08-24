@@ -1,10 +1,6 @@
 body {
     background-image: url(main\ background.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    margin: 0;
-    color: #fff;
+    
 }
 
 .thank {
@@ -15,30 +11,27 @@ body {
 
 .topic {
     background-color: #111;
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    padding: 16px;
 }
 
 #dep {
     color: rgb(255, 255, 255);
-    margin: 0;
-    font-size: 42px;
+    position: relative;
+    margin-left: 250px;
+    margin-top: -120px;
+    font-size: 50px;
     text-shadow: 0px 0px 30px rgb(255, 138, 95),
                  0px 0px 60px rgb(255, 138, 95);
 }
 
 .imagegif {
     position: relative;
-    height: 160px;
-    width: 160px;
+    height: 200px;
+    width: 200px;
     margin-left: 0px;
-    object-fit: cover;
 }
 
 nav {
-    font-size: 24px;
+    font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
     position: relative;
     margin-left: 90px;
@@ -72,41 +65,43 @@ marquee {
 
 /* Box styling */
 .box {
-    border: 1px solid #2b2b2b;
-    background-color: #1a1a1a;
+    border-style: groove;
+    border-color: gray;
+    background-color: #d1d0d0;
     height: 420px;
     width: 300px;
-    border-radius: 16px;
-    overflow: hidden;
-    transition: box-shadow .2s ease, transform .2s ease;
+    border-width: 10px;
+    border-radius: 15px;
 }
 
 .box:hover {
     position: relative;
-    box-shadow: 0px 10px 30px rgba(0,0,0,.45);
-    transform: translateY(-3px);
+    box-shadow: 0px 0px 10px rgb(110, 110, 110),
+                0px 0px 20px rgb(151, 151, 151),
+                0px 0px 30px rgb(124, 124, 124);
+    padding: 5px;
 }
 .boxtext {
-    color: #ffe5de;
+    color: rgb(255, 200, 200);
     text-decoration: none;
-    height: 36px;
-    width: 120px;
+    height: 30px;
+    width: 100px;
     border-style: solid;
-    border-width: 2px;
-    border-color: #fff;
-    background-color: #000;
-    border-radius: 22px;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
     position: relative;
-    bottom: 10px;
-    padding: 6px 12px;
-    text-transform: uppercase;
+    bottom: 20px;
+    padding: 5px;
+    padding-top: 3px;
 }
 
 .boxtext:hover {
-    box-shadow: 0 8px 22px rgba(16, 247, 160, 0.35);
-    background-color: #10f7a0;
-    color: #111;
-    border-color: #10f7a0;
+    box-shadow: 2px 5px 20px rgb(0, 255, 21);
+    background-color: rgb(10, 252, 30);
+    border-color: rgb(255, 255, 255);
+    padding: 8px;
 }
 
 .image {
@@ -114,17 +109,18 @@ marquee {
     border-radius: 0px;
     background-color: #0ef;
     height: 250px;
-    width: 100%;
+    width: 300px;
     object-fit: cover;
 }
 
 section {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 24px;
-    padding: 24px;
-    margin: 0 auto;
-    max-width: 1200px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 100px);
+    gap: 400px 100px;
+    margin: 120px;
+    margin-left: 300px;
+    margin-top: 100px;
 }
 
 /* Media Queries for Responsive Design */
@@ -261,14 +257,26 @@ section {
 /* Tablets and smaller screens */
 @media screen and (max-width: 1024px) {
     #dep {
-        font-size: 36px;
+        font-size: 40px;
+        margin-left: 50px;
+        margin-top: -60px;
+    }
+    nav {
+        font-size: 30px;
+        margin-left: 20px;
     }
     .box {
-        width: 100%;
-        height: 380px;
+        width: 250px;
+        height: 350px;
     }
     .image {
         height: 220px;
+        width: 250px;
+    }
+    section {
+        gap: 200px 50px;
+        margin-left: 50px;
+        margin-top: 50px;
     }
 }
 
@@ -276,22 +284,61 @@ section {
 @media screen and (max-width: 768px) {
     #dep {
         font-size: 30px;
+        margin-left: 20px;
+        margin-top: -40px;
     }
     nav {
         font-size: 20px;
+        margin-left: 10px;
     }
-    .imagegif {
-        height: 120px;
-        width: 120px;
+    .box {
+        width: 200px;
+        height: 300px;
+    }
+    .boxtext{
+     
+        position: relative;
+        margin-top: -20px;
+    }
+    .image {
+        height: 180px;
+        width: 200px;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin: 20px;
     }
 }
 
 /* Extra small devices (phones) */
 @media screen and (max-width: 480px) {
     #dep {
-        font-size: 26px;
+        font-size: 25px;
+        margin-left: 10px;
+        margin-top: -20px;
     }
     nav {
         font-size: 18px;
+        margin-left: 5px;
+    }
+    .box {
+        width: 180px;
+        height: 280px;
+    }
+    .boxtext{
+     
+        position: relative;
+        margin-top: -20px;
+    }
+    .image {
+        height: 160px;
+        width: 180px;
+    }
+    section {
+        margin: 10px;
+        gap: 20px;
     }
 }
