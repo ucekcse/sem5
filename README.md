@@ -1,3 +1,3 @@
-# sem4
-SiteLnk:https://arunucek.github.io/sem4/
+# sem5
+SiteLnk:https://ucekcse.github.io/sem5/
 
